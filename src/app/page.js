@@ -114,7 +114,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-6">
               <a
                 href="/cv.pdf"
-                target="_blank"
+                download="CV_Aditya_Pratama.pdf"
                 className="px-10 py-4 bg-white text-black rounded-full font-black text-xs uppercase tracking-widest hover:bg-cyan-500 hover:text-white transition-all shadow-xl shadow-white/5 flex items-center gap-2 no-underline"
               >
                 Download CV <Download size={16} />
